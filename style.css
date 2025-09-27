@@ -1,0 +1,173 @@
+/* General Page Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: white;
+  color: black;
+  text-align: center;
+}
+
+/* Header & Navigation */
+header {
+  background: blue;
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+  position: sticky;
+  top: 0;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+section {
+  background: white;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#intro img {
+  max-width: 150px;
+  border-radius: 50%;
+  margin: 10px 0;
+}
+
+.skells {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.skells div {
+  text-align: center;
+}
+
+.skells img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  display: block;
+  margin: auto;
+}
+
+.activities {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.activities div {
+  background: #fdfdfd;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  width: 250px;
+  text-align: center;
+  box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.activities img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+/* Calendar (Aside) */
+aside {
+  margin: 20px 0;
+  padding: 15px;
+  background: bisque;
+  border-radius: 10px;
+  box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+aside table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px 0;
+}
+
+aside th,
+aside td {
+  border: 1px solid cadetblue;
+  padding: 8px;
+  text-align: center;
+}
+
+.birthday {
+  background: blue;   /* Blue header */
+  color: white;
+
+aside th {
+  background: blue;
+  color: white;
+}
+
+fotter {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  display: block;
+}
+
+fotter form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+
+fotter input,
+fotter textarea {
+  margin: 8px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+fotter button {
+  background: black;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+fotter button:hover {
+  background: blue;
+}
+
